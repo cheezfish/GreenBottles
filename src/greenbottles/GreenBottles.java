@@ -13,7 +13,8 @@ public class GreenBottles {
             int beerNum=0; //declares and initialises the all important BeerNum
             System.out.println("How many bottles of beer?");
             Scanner howmany = new Scanner(System.in); //takes input to assign beerNum variable
-            try{ //blocks answers that aren't integers
+            try
+            { //blocks answers that aren't integers
                     beerNum = Integer.parseInt(howmany.nextLine());
             }
             catch(IllegalArgumentException ex) {
