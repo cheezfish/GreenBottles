@@ -38,8 +38,8 @@ public class GreenBottles
     {
         String word = "bottles";
         
-        while (beerNum > 0) 
-        { //while loop provided beerNum isn't 0
+        for (int i = beerNum; i > 0; i--) 
+        { //for loop provided beerNum isn't 0
  
             System.out.println(beerNum + " " + word + " of beer on the wall");
             System.out.println(beerNum + " " + word + " of beer.");
@@ -57,7 +57,7 @@ public class GreenBottles
                 System.out.println(beerNum + " " + word + " of beer on the wall");
         
             }    
-        } // end while loop
+        } // end for loop
         
         System.out.println("No more bottles of beer on the wall"); //finally this stupid song can end
     }
